@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: #fbe3e3;
+}
+main{
+    width: 100%;
+    height: 540px;
+    display: flex;
+}
+section{
+    width: 40%;
+}
+.logo{
+    width: 120px;
+    height: 48;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.contenedorPrincipal{
+    width: 70%;
+    
+}
+.textarea{
+    background: #fbe3e3;
+    margin-top: 60px;
+    margin-left: 210px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+    color: #EF5DAB;
+}
+::placeholder{
+    color: #EF5DAB;
+}
+.primer-parrafo{
+    margin-top: 160px;
+    margin-left: 210px;
+    padding: 10px;
+
+}
+.botonEncriptar{
+    background: #EF5DAB;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 60px;
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 170px;
+    border-color: #EF5DAB;
+}
+.botonDesencriptar{
+    color: #EF5DAB;
+    border-color: #EF5DAB;
+    border-radius: 20px;
+    padding: 15px 60px;
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 20px;
+}
+.section2{
+   width: 25%;
+   background-color: white;
+   border-radius: 20px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.contenedorMuneco{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.contenedor-h3{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.contenedor-boton{
+    width: 100%;
+    height: 10%;
+}
+.boton-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    color: #EF5DAB;
+    border-color: #EF5DAB;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.ocultar{
+    display: none;
+}
+
+/*intento de responsive*/
+@media screen and (max-width: 400px) {
+    main{
+        width: 100%;
+    }
+    .contenedorPrincipal{
+        width: 70%;
+    }
+    .section2{
+        width: 45%;
+        margin-left: 200px;
+        position: fixed;
+        margin-top: 570px;
+    }
+
+    .botonEncriptar,.botonDesencriptar,.primer-parrafo{
+        padding: 5px 20px;
+        margin-left: 230px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
